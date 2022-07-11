@@ -71,8 +71,7 @@ extension ViewController: AgoraRtcEngineDelegate {
         videoCanvas.renderMode = .hidden
         videoCanvas.view = remoteView
         agoraKit?.setupRemoteVideo(videoCanvas)
-        print(AppID)
-        print("hello")
+        print("hello jay")
     }
 }
 
