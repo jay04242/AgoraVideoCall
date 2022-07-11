@@ -72,6 +72,7 @@ extension ViewController: AgoraRtcEngineDelegate {
         videoCanvas.view = remoteView
         agoraKit?.setupRemoteVideo(videoCanvas)
         print(AppID)
+        print("hello")
     }
 }
 
