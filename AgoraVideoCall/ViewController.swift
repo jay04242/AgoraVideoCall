@@ -20,6 +20,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         initView()
         initializeAndJoinChannel()
+        print(AppID)
+        print("hello jay")
     }
 
     override func viewDidDisappear(_ animated: Bool) {
@@ -71,7 +73,7 @@ extension ViewController: AgoraRtcEngineDelegate {
         videoCanvas.renderMode = .hidden
         videoCanvas.view = remoteView
         agoraKit?.setupRemoteVideo(videoCanvas)
-        print("hello jay")
+       
     }
 }
 
