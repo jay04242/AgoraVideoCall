@@ -11,7 +11,6 @@ import AgoraRtcKit
 
 class ViewController: UIViewController {
     
-    
     var localView: UIView!
     var remoteView: UIView!
     var agoraKit: AgoraRtcEngineKit?
@@ -61,7 +60,6 @@ class ViewController: UIViewController {
       agoraKit?.joinChannel(byToken: "0069724c0b515be46e5a2bb94895943bd31IABH9uTErM5FKv98GP79iAUZ4yGOQbFj3Jocg0s40zDG/KDfQtYAAAAAEADLkLYo16vKYgEAAQDXq8pi", channelId: "demo", info: nil, uid: 0, joinSuccess: { (channel, uid, elapsed) in
            })
        }
-    
 }
 
 
@@ -73,5 +71,7 @@ extension ViewController: AgoraRtcEngineDelegate {
         videoCanvas.renderMode = .hidden
         videoCanvas.view = remoteView
         agoraKit?.setupRemoteVideo(videoCanvas)
+        print(AppID)
     }
 }
+
