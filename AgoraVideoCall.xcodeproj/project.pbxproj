@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		020CB1E75FB6A461B2E57096 /* Pods_AgoraVideoCall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ABFDFD34AA5F14334C34CB1 /* Pods_AgoraVideoCall.framework */; };
+		CC96CBA628796225002ECEE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96CBA528796225002ECEE4 /* AppDelegate.swift */; };
+		CC96CBA828796225002ECEE4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96CBA728796225002ECEE4 /* SceneDelegate.swift */; };
+		CC96CBAA28796225002ECEE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96CBA928796225002ECEE4 /* ViewController.swift */; };
+		CC96CBAD28796225002ECEE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC96CBAB28796225002ECEE4 /* Main.storyboard */; };
+		CC96CBAF28796227002ECEE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC96CBAE28796227002ECEE4 /* Assets.xcassets */; };
+		CC96CBB228796227002ECEE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC96CBB028796227002ECEE4 /* LaunchScreen.storyboard */; };
+		CC96CBBD28796227002ECEE4 /* AgoraVideoCallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96CBBC28796227002ECEE4 /* AgoraVideoCallTests.swift */; };
+		CC96CBC728796227002ECEE4 /* AgoraVideoCallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96CBC628796227002ECEE4 /* AgoraVideoCallUITests.swift */; };
+		CC96CBC928796227002ECEE4 /* AgoraVideoCallUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96CBC828796227002ECEE4 /* AgoraVideoCallUITestsLaunchTests.swift */; };
+		E300E35750DA4E99AB015197 /* Pods_AgoraVideoCall_AgoraVideoCallUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E882B72B17B8B73775A6082 /* Pods_AgoraVideoCall_AgoraVideoCallUITests.framework */; };
+		EC40A671AF32B4BCF968013A /* Pods_AgoraVideoCallTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80A45D8574D4C497411763ED /* Pods_AgoraVideoCallTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC96CBB928796227002ECEE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC96CB9A28796225002ECEE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC96CBA128796225002ECEE4;
+			remoteInfo = AgoraVideoCall;
+		};
+		CC96CBC328796227002ECEE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC96CB9A28796225002ECEE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC96CBA128796225002ECEE4;
+			remoteInfo = AgoraVideoCall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		009ADEA77393B4A15D80AA1D /* Pods-AgoraVideoCall-AgoraVideoCallUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgoraVideoCall-AgoraVideoCallUITests.debug.xcconfig"; path = "Target Support Files/Pods-AgoraVideoCall-AgoraVideoCallUITests/Pods-AgoraVideoCall-AgoraVideoCallUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0ABFDFD34AA5F14334C34CB1 /* Pods_AgoraVideoCall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AgoraVideoCall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E882B72B17B8B73775A6082 /* Pods_AgoraVideoCall_AgoraVideoCallUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AgoraVideoCall_AgoraVideoCallUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		296E63533CE9B7965225EF8B /* Pods-AgoraVideoCall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgoraVideoCall.debug.xcconfig"; path = "Target Support Files/Pods-AgoraVideoCall/Pods-AgoraVideoCall.debug.xcconfig"; sourceTree = "<group>"; };
+		361F957E2FC5D49DD6CB4C43 /* Pods-AgoraVideoCallTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgoraVideoCallTests.release.xcconfig"; path = "Target Support Files/Pods-AgoraVideoCallTests/Pods-AgoraVideoCallTests.release.xcconfig"; sourceTree = "<group>"; };
+		6FA52D6A681C68BEC8AAB52F /* Pods-AgoraVideoCallTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgoraVideoCallTests.debug.xcconfig"; path = "Target Support Files/Pods-AgoraVideoCallTests/Pods-AgoraVideoCallTests.debug.xcconfig"; sourceTree = "<group>"; };
+		80A45D8574D4C497411763ED /* Pods_AgoraVideoCallTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AgoraVideoCallTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		975528697BA916F8566F56F6 /* Pods-AgoraVideoCall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgoraVideoCall.release.xcconfig"; path = "Target Support Files/Pods-AgoraVideoCall/Pods-AgoraVideoCall.release.xcconfig"; sourceTree = "<group>"; };
+		CC96CBA228796225002ECEE4 /* AgoraVideoCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgoraVideoCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC96CBA528796225002ECEE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC96CBA728796225002ECEE4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CC96CBA928796225002ECEE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC96CBAC28796225002ECEE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC96CBAE28796227002ECEE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC96CBB128796227002ECEE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC96CBB328796227002ECEE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC96CBB828796227002ECEE4 /* AgoraVideoCallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgoraVideoCallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC96CBBC28796227002ECEE4 /* AgoraVideoCallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgoraVideoCallTests.swift; sourceTree = "<group>"; };
+		CC96CBC228796227002ECEE4 /* AgoraVideoCallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgoraVideoCallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC96CBC628796227002ECEE4 /* AgoraVideoCallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgoraVideoCallUITests.swift; sourceTree = "<group>"; };
+		CC96CBC828796227002ECEE4 /* AgoraVideoCallUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgoraVideoCallUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FEAC93BCE34172C73B4F7F04 /* Pods-AgoraVideoCall-AgoraVideoCallUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgoraVideoCall-AgoraVideoCallUITests.release.xcconfig"; path = "Target Support Files/Pods-AgoraVideoCall-AgoraVideoCallUITests/Pods-AgoraVideoCall-AgoraVideoCallUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC96CB9F28796225002ECEE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020CB1E75FB6A461B2E57096 /* Pods_AgoraVideoCall.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC96CBB528796227002ECEE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC40A671AF32B4BCF968013A /* Pods_AgoraVideoCallTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC96CBBF28796227002ECEE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E300E35750DA4E99AB015197 /* Pods_AgoraVideoCall_AgoraVideoCallUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52F889D3C296704D41934C34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				296E63533CE9B7965225EF8B /* Pods-AgoraVideoCall.debug.xcconfig */,
+				975528697BA916F8566F56F6 /* Pods-AgoraVideoCall.release.xcconfig */,
+				009ADEA77393B4A15D80AA1D /* Pods-AgoraVideoCall-AgoraVideoCallUITests.debug.xcconfig */,
+				FEAC93BCE34172C73B4F7F04 /* Pods-AgoraVideoCall-AgoraVideoCallUITests.release.xcconfig */,
+				6FA52D6A681C68BEC8AAB52F /* Pods-AgoraVideoCallTests.debug.xcconfig */,
+				361F957E2FC5D49DD6CB4C43 /* Pods-AgoraVideoCallTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8AA80B8F8B71DBCFE5B7F586 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0ABFDFD34AA5F14334C34CB1 /* Pods_AgoraVideoCall.framework */,
+				1E882B72B17B8B73775A6082 /* Pods_AgoraVideoCall_AgoraVideoCallUITests.framework */,
+				80A45D8574D4C497411763ED /* Pods_AgoraVideoCallTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC96CB9928796225002ECEE4 = {
+			isa = PBXGroup;
+			children = (
+				CC96CBA428796225002ECEE4 /* AgoraVideoCall */,
+				CC96CBBB28796227002ECEE4 /* AgoraVideoCallTests */,
+				CC96CBC528796227002ECEE4 /* AgoraVideoCallUITests */,
+				CC96CBA328796225002ECEE4 /* Products */,
+				52F889D3C296704D41934C34 /* Pods */,
+				8AA80B8F8B71DBCFE5B7F586 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC96CBA328796225002ECEE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC96CBA228796225002ECEE4 /* AgoraVideoCall.app */,
+				CC96CBB828796227002ECEE4 /* AgoraVideoCallTests.xctest */,
+				CC96CBC228796227002ECEE4 /* AgoraVideoCallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC96CBA428796225002ECEE4 /* AgoraVideoCall */ = {
+			isa = PBXGroup;
+			children = (
+				CC96CBA528796225002ECEE4 /* AppDelegate.swift */,
+				CC96CBA728796225002ECEE4 /* SceneDelegate.swift */,
+				CC96CBA928796225002ECEE4 /* ViewController.swift */,
+				CC96CBAB28796225002ECEE4 /* Main.storyboard */,
+				CC96CBAE28796227002ECEE4 /* Assets.xcassets */,
+				CC96CBB028796227002ECEE4 /* LaunchScreen.storyboard */,
+				CC96CBB328796227002ECEE4 /* Info.plist */,
+			);
+			path = AgoraVideoCall;
+			sourceTree = "<group>";
+		};
+		CC96CBBB28796227002ECEE4 /* AgoraVideoCallTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC96CBBC28796227002ECEE4 /* AgoraVideoCallTests.swift */,
+			);
+			path = AgoraVideoCallTests;
+			sourceTree = "<group>";
+		};
+		CC96CBC528796227002ECEE4 /* AgoraVideoCallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC96CBC628796227002ECEE4 /* AgoraVideoCallUITests.swift */,
+				CC96CBC828796227002ECEE4 /* AgoraVideoCallUITestsLaunchTests.swift */,
+			);
+			path = AgoraVideoCallUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC96CBA128796225002ECEE4 /* AgoraVideoCall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC96CBCC28796227002ECEE4 /* Build configuration list for PBXNativeTarget "AgoraVideoCall" */;
+			buildPhases = (
+				4F28C1A403EB79ADE2ABDC57 /* [CP] Check Pods Manifest.lock */,
+				CC96CB9E28796225002ECEE4 /* Sources */,
+				CC96CB9F28796225002ECEE4 /* Frameworks */,
+				CC96CBA028796225002ECEE4 /* Resources */,
+				D5367C10C3515ACD2791BCED /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgoraVideoCall;
+			productName = AgoraVideoCall;
+			productReference = CC96CBA228796225002ECEE4 /* AgoraVideoCall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC96CBB728796227002ECEE4 /* AgoraVideoCallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC96CBCF28796227002ECEE4 /* Build configuration list for PBXNativeTarget "AgoraVideoCallTests" */;
+			buildPhases = (
+				6D758C51AF23AD80C8E00AE7 /* [CP] Check Pods Manifest.lock */,
+				CC96CBB428796227002ECEE4 /* Sources */,
+				CC96CBB528796227002ECEE4 /* Frameworks */,
+				CC96CBB628796227002ECEE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC96CBBA28796227002ECEE4 /* PBXTargetDependency */,
+			);
+			name = AgoraVideoCallTests;
+			productName = AgoraVideoCallTests;
+			productReference = CC96CBB828796227002ECEE4 /* AgoraVideoCallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC96CBC128796227002ECEE4 /* AgoraVideoCallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC96CBD228796227002ECEE4 /* Build configuration list for PBXNativeTarget "AgoraVideoCallUITests" */;
+			buildPhases = (
+				FC67F3872EF955F83117CEA5 /* [CP] Check Pods Manifest.lock */,
+				CC96CBBE28796227002ECEE4 /* Sources */,
+				CC96CBBF28796227002ECEE4 /* Frameworks */,
+				CC96CBC028796227002ECEE4 /* Resources */,
+				0A0261AD7A2A9A31872901D7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC96CBC428796227002ECEE4 /* PBXTargetDependency */,
+			);
+			name = AgoraVideoCallUITests;
+			productName = AgoraVideoCallUITests;
+			productReference = CC96CBC228796227002ECEE4 /* AgoraVideoCallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC96CB9A28796225002ECEE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					CC96CBA128796225002ECEE4 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					CC96CBB728796227002ECEE4 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = CC96CBA128796225002ECEE4;
+					};
+					CC96CBC128796227002ECEE4 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = CC96CBA128796225002ECEE4;
+					};
+				};
+			};
+			buildConfigurationList = CC96CB9D28796225002ECEE4 /* Build configuration list for PBXProject "AgoraVideoCall" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC96CB9928796225002ECEE4;
+			productRefGroup = CC96CBA328796225002ECEE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC96CBA128796225002ECEE4 /* AgoraVideoCall */,
+				CC96CBB728796227002ECEE4 /* AgoraVideoCallTests */,
+				CC96CBC128796227002ECEE4 /* AgoraVideoCallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC96CBA028796225002ECEE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC96CBB228796227002ECEE4 /* LaunchScreen.storyboard in Resources */,
+				CC96CBAF28796227002ECEE4 /* Assets.xcassets in Resources */,
+				CC96CBAD28796225002ECEE4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC96CBB628796227002ECEE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC96CBC028796227002ECEE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A0261AD7A2A9A31872901D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AgoraVideoCall-AgoraVideoCallUITests/Pods-AgoraVideoCall-AgoraVideoCallUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AgoraVideoCall-AgoraVideoCallUITests/Pods-AgoraVideoCall-AgoraVideoCallUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AgoraVideoCall-AgoraVideoCallUITests/Pods-AgoraVideoCall-AgoraVideoCallUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F28C1A403EB79ADE2ABDC57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AgoraVideoCall-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D758C51AF23AD80C8E00AE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AgoraVideoCallTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5367C10C3515ACD2791BCED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AgoraVideoCall/Pods-AgoraVideoCall-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AgoraVideoCall/Pods-AgoraVideoCall-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AgoraVideoCall/Pods-AgoraVideoCall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC67F3872EF955F83117CEA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AgoraVideoCall-AgoraVideoCallUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC96CB9E28796225002ECEE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC96CBAA28796225002ECEE4 /* ViewController.swift in Sources */,
+				CC96CBA628796225002ECEE4 /* AppDelegate.swift in Sources */,
+				CC96CBA828796225002ECEE4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC96CBB428796227002ECEE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC96CBBD28796227002ECEE4 /* AgoraVideoCallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC96CBBE28796227002ECEE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC96CBC728796227002ECEE4 /* AgoraVideoCallUITests.swift in Sources */,
+				CC96CBC928796227002ECEE4 /* AgoraVideoCallUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC96CBBA28796227002ECEE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC96CBA128796225002ECEE4 /* AgoraVideoCall */;
+			targetProxy = CC96CBB928796227002ECEE4 /* PBXContainerItemProxy */;
+		};
+		CC96CBC428796227002ECEE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC96CBA128796225002ECEE4 /* AgoraVideoCall */;
+			targetProxy = CC96CBC328796227002ECEE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC96CBAB28796225002ECEE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC96CBAC28796225002ECEE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC96CBB028796227002ECEE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC96CBB128796227002ECEE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC96CBCA28796227002ECEE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC96CBCB28796227002ECEE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC96CBCD28796227002ECEE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 296E63533CE9B7965225EF8B /* Pods-AgoraVideoCall.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4S2C275J2R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AgoraVideoCall/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jay-Kumbhani.AgoraVideoCall";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC96CBCE28796227002ECEE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 975528697BA916F8566F56F6 /* Pods-AgoraVideoCall.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4S2C275J2R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AgoraVideoCall/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jay-Kumbhani.AgoraVideoCall";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC96CBD028796227002ECEE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FA52D6A681C68BEC8AAB52F /* Pods-AgoraVideoCallTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jay-Kumbhani.AgoraVideoCallTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgoraVideoCall.app/AgoraVideoCall";
+			};
+			name = Debug;
+		};
+		CC96CBD128796227002ECEE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 361F957E2FC5D49DD6CB4C43 /* Pods-AgoraVideoCallTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jay-Kumbhani.AgoraVideoCallTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgoraVideoCall.app/AgoraVideoCall";
+			};
+			name = Release;
+		};
+		CC96CBD328796227002ECEE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 009ADEA77393B4A15D80AA1D /* Pods-AgoraVideoCall-AgoraVideoCallUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jay-Kumbhani.AgoraVideoCallUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AgoraVideoCall;
+			};
+			name = Debug;
+		};
+		CC96CBD428796227002ECEE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEAC93BCE34172C73B4F7F04 /* Pods-AgoraVideoCall-AgoraVideoCallUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jay-Kumbhani.AgoraVideoCallUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AgoraVideoCall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC96CB9D28796225002ECEE4 /* Build configuration list for PBXProject "AgoraVideoCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC96CBCA28796227002ECEE4 /* Debug */,
+				CC96CBCB28796227002ECEE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC96CBCC28796227002ECEE4 /* Build configuration list for PBXNativeTarget "AgoraVideoCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC96CBCD28796227002ECEE4 /* Debug */,
+				CC96CBCE28796227002ECEE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC96CBCF28796227002ECEE4 /* Build configuration list for PBXNativeTarget "AgoraVideoCallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC96CBD028796227002ECEE4 /* Debug */,
+				CC96CBD128796227002ECEE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC96CBD228796227002ECEE4 /* Build configuration list for PBXNativeTarget "AgoraVideoCallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC96CBD328796227002ECEE4 /* Debug */,
+				CC96CBD428796227002ECEE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC96CB9A28796225002ECEE4 /* Project object */;
+}
